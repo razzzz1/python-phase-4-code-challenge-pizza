@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn & Analyze App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>zinduka analytics and educational</h1>
+    </header>
+    <main>
+        <section id="course-selection">
+            <h2>username</h2>
+            <button id="log-in">log-in</button>
+                <div class="course">
+                    <input type="text" id="optionInput" placeholder="name@school">
+                    
+                </div>
+             <form id="redirectForm">
+              <select id="optionSelect" name="options">
+             <option value="results.html">Andrewjohn@moringa school</option>
+             <option value="progress.html">Ryanmaiyo@moringa school</option>
+             <option value="amen.html">Kennedy@zinduka academy</option>
+             <option value="beleive.html">Ruthkimeli@zinduka academy</option>   
+             </select>
+            <button type="button" onclick="redirectToPage()">continue</button>
+             </form>
+            <script>
+                function redirectToPage() {
+                    var selectedOption = document.getElementById("optionSelect").value;
+                    window.location.href = selectedOption;
+                }
+            </script>
+        </section>
+        <section id="course-content" style="display: none;">  <h2></h2>  <div id="content-area"></div>
+            <button id="next-button"></button>
+            <script src="script.js"></script>
+        </section>
+    </main>
+    <a href="about.html">about zinduka analytics and education</a> 
+    <script src="script.js"></script>
+    <style>
+        body{
+          background-image: url(HD-wallpaper-abstract-themes-abstract-beautiful-nice-neon-blue.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+      </style>
+</body>
+</html>
+

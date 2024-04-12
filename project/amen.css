@@ -1,0 +1,33 @@
+img {
+    text-align: center;
+    font-size: 42px;
+}
+.p {
+    font-size: 20px;
+}
+p {
+    font-size: 44px;
+}
+table {
+    position: absolute;
+    top: 20%;
+    right: 46%;
+    transform: translateY(-50%); 
+    font-size: 36px;   
+}
+div {
+    position: absolute;
+    top: 77%;
+    right: 16%;
+    transform: translateY(-50%); 
+}
+.table {
+    position: absolute;
+    top: 20%;
+    right: 12%;
+    transform: translateY(-50%); 
+    font-size: 36px;
+    word-spacing: 10px;
+    margin: black;
+    border: 10px solid transparent;
+}
