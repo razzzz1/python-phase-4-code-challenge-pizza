@@ -1,0 +1,21 @@
+{
+   "nakuru": [
+        {
+            "id": 1,
+            "name": "masai mara school",
+            "base": "mama"
+
+
+        },
+        {
+            "id": 2,
+            "name": "rotary club"
+        },
+        {
+            "id": 3,
+            "name": "bram fraternity"
+
+        }
+
+        ]
+    }
